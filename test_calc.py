@@ -19,4 +19,8 @@ def test_3():
 
 def test_delimiter():
      assert add("1\n2,4") == 7
+
+def test_del2():
+    assert add("//;\n2") == 2
+    assert add("//;\n1;2;3") == 6
     
