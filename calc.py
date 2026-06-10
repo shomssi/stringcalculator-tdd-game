@@ -7,7 +7,7 @@ def add(numbers):
         count = 0
         for i in numbers:
             count++
-            if i<=1000:
+            if i<=1000 and i>=0:
                 sum+=i
             if count>2:
                 break
