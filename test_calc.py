@@ -13,4 +13,4 @@ def test_example_string_returns_zero():
 def test_1():
     assert add("2") == 2
 def test_2():
-    assert add("1","2") ==3
+    assert add("1,2") ==3
