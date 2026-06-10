@@ -1,6 +1,14 @@
 """ Edit the function below to implement the String Calculator TDD Kata """
-
+import re
 def add(numbers):
-    if numbers=="":
-        return 0
-    return sum(int(number) for number in numbers.replace("\n",",").split(","))
+    numbers = re.findall(r'-?\d+',text)
+    sum = 0
+    if numbers:
+        count = 0
+        for i in numbers:
+            count++
+            if i<=1000:
+                sum+=i
+            if count>2:
+                break
+    return sum
