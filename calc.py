@@ -3,4 +3,4 @@
 def add(numbers):
     if numbers=="":
         return 0
-    return int(numbers)
+    return sum(int(number) for number in numbers.split(","))
