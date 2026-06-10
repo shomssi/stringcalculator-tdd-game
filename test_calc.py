@@ -12,3 +12,5 @@ def test_example_string_returns_zero():
     assert add("") == 0  # uncomment to test
 def test_1():
     assert add("2") == 2
+def test_2():
+    assert add("1","2") ==3
