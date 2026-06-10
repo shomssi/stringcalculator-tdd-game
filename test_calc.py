@@ -14,3 +14,5 @@ def test_1():
     assert add("2") == 2
 def test_2():
     assert add("1,2") ==3
+def test_3():
+    assert add("1\n2")==3
