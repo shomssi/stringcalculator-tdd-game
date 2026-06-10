@@ -16,3 +16,7 @@ def test_2():
     assert add("1,2") ==3
 def test_3():
     assert add("1\n2")==3
+
+def test_delimiter():
+     assert add("1\n2,4") == 7
+    
